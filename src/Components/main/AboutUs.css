@@ -120,8 +120,6 @@
     align-items: center;
   }
   .about-footer p {
-    color: #b1b0b2;
-    font-family: OpenSans;
     font-size: 17px;
     line-height: 23.15px;
     width: 384px;
@@ -144,7 +142,6 @@
     margin-top: 130px;
   }
   .about-details h1 {
-    color: #ffffff;
     font-size: 55px;
     width: 400px;
     line-height: 70.7px;

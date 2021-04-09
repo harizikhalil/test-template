@@ -1,5 +1,4 @@
 import React from "react";
-import fond1 from "../../assets/fond1.png";
 import "./AboutUs.css";
 const AboutUs = () => {
   return (
