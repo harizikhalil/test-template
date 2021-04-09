@@ -1,0 +1,82 @@
+.navbar {
+  height: 75px;
+  width: 1440px;
+  padding: 5px;
+  margin: auto;
+}
+.logo {
+  width: 158px;
+  height: 63px;
+  background-size: cover;
+  margin-left: 50px;
+}
+.navbar-container {
+  display: flex;
+  align-items: center;
+}
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  margin-left: 155px;
+  width: 70%;
+}
+.navbar-left a {
+  color: #000000;
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 21.79px;
+  margin-left: 70px;
+}
+.navbar-option {
+  margin-left: 170px;
+}
+.navbar-option button {
+  margin-right: 70px;
+  background-image: linear-gradient(
+    47.99deg,
+    #2e8174 0%,
+    #30a996 42.53%,
+    #00ffd9 100%
+  );
+  border: none;
+  border-radius: 15px;
+  width: 128px;
+  height: 52px;
+  color: #000000;
+  font-family: OpenSans;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21.79px;
+  text-align: center;
+}
+.Burger-menu {
+  display: none;
+}
+@media only screen and (max-width: 1300px) {
+  .navbar {
+    background-color: #242726;
+    width: 100%;
+  }
+  .navbar-menu {
+    display: none;
+  }
+  .navbar-option {
+    display: none;
+  }
+  .Burger-menu {
+    display: inline-block;
+  }
+  .navbar-container {
+    justify-content: space-between;
+  }
+}
+@media only screen and (max-width: 461px) {
+  .logo {
+    width: 100px;
+    height: 40px;
+  }
+  .Burger-menu {
+    width: 40px;
+    height: 40px;
+  }
+}

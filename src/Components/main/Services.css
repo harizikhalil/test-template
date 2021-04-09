@@ -1,0 +1,114 @@
+.services-session {
+  text-align: center;
+  width: 1240px;
+  margin: auto;
+  margin-top: 60px;
+}
+.services-session h2 {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 40px;
+  line-height: 48.76px;
+  width: 780px;
+  text-align: justify;
+  margin: auto;
+}
+.services-container {
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.card-service {
+  width: 300px;
+  text-align: center;
+}
+.card-service img {
+  width: 127px;
+  height: 127px;
+}
+.card-service h3 {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 25px;
+  line-height: 30px;
+}
+.card-service p {
+  color: #807f7f;
+  font-family: OpenSans;
+  font-size: 19px;
+  line-height: 25.87px;
+  width: 298px;
+  text-align: justify;
+  margin-top: 15px;
+}
+
+.services-session button {
+  background-image: linear-gradient(
+    47.99deg,
+    #2e8174 0%,
+    #30a996 42.53%,
+    #00ffd9 100%
+  );
+  border-radius: 15px;
+  width: 297px;
+  height: 50px;
+  border: none;
+  margin-top: 70px;
+  margin-bottom: 75px;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 19px;
+}
+@media only screen and (max-width: 1254px) {
+  .services-session {
+    width: 100%;
+  }
+  .services-container {
+    flex-direction: column;
+  }
+  .card-service p {
+    width: 700px;
+  }
+  .card-service {
+    width: 700px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 796px) {
+  .services-session h2 {
+    font-size: 30px;
+    width: 580px;
+  }
+}
+@media only screen and (max-width: 727px) {
+  .card-service {
+    width: 340px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .card-service p {
+    width: 400px;
+  }
+  .services-session h2 {
+    width: 410px;
+  }
+}
+@media only screen and (max-width: 508px) {
+  .card-service {
+    width: 300px;
+  }
+  .card-service p {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 461px) {
+  .services-session h2 {
+    font-size: 25px;
+    width: 318px;
+    line-height: 21.94px;
+  }
+}
