@@ -1,7 +1,7 @@
 import React from "react";
 import "./NavBar.css";
-import logoaleia from "../../assets/logoaleia.png";
-import BurgerMenu from "../../assets/BurgerMenu.png";
+import logoaleia from "../../image/logoaleia.png";
+import BurgerMenu from "../../image/BurgerMenu.png";
 const NavBar = () => {
   return (
     <nav className="navbar">

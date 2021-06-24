@@ -1,8 +1,8 @@
 import React from "react";
-import logoaleia from "../../assets/logoaleia.png";
-import facebook from "../../assets/facebook.png";
-import linkedin from "../../assets/linkedin.png";
-import twitter from "../../assets/twitter.png";
+import logoaleia from "../../image/logoaleia.png";
+import facebook from "../../image/facebook.png";
+import linkedin from "../../image/linkedin.png";
+import twitter from "../../image/twitter.png";
 import "./Footer.css";
 const Footer = () => {
   return (
