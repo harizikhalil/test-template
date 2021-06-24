@@ -1,6 +1,6 @@
 .footer-session {
   background-color: #242726;
-  width: 1440px;
+  width: 100%;
   height: 270px;
   margin: auto;
   padding: 70px;
@@ -74,7 +74,7 @@ span {
     width: 990px;
   }
 }
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 1135px) {
   .footer-container {
     width: 800px;
   }
@@ -160,8 +160,12 @@ span {
   .email-input {
     left: 8px;
   }
+
   .footer-title {
     width: 300px;
+  }
+  .footer-title h3 {
+    font-size: 16px;
   }
 }
 
@@ -196,5 +200,22 @@ span {
   }
   .footer-title {
     left: 40px;
+  }
+}
+@media only screen and (max-width: 373px) {
+  .footer-logo {
+    width: 60px;
+
+    left: 20px;
+  }
+  .copyright {
+    margin-top: 147px;
+    margin-left: 90px;
+  }
+  .email-input {
+    margin-left: 10px;
+  }
+  .footer-title {
+    left: 10px;
   }
 }
